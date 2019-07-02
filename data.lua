@@ -4,12 +4,11 @@ end
 
 local assembler_pipe_passthrough_defines = require('defines')
 
--- get all assembling machines
--- add extra pipe covers
--- extend
-
 for j_index, j in pairs(data.raw['assembling-machine']) do
+    -- if assembling-machine (vanilla)
+    -- if electronics-machine (bobs)
     if (starts_with(j.name, 'assembling-machine') or starts_with(j.name, 'electronics-machine')) and j.fluid_boxes then
+        --log(j.name)
         local connections_to_add = {}
         if settings.startup[assembler_pipe_passthrough_defines.names.settings.multiple_pipe_passthrough].value then
             -- add 3 extra pipe connections
@@ -61,4 +60,9 @@ for j_index, j in pairs(data.raw['assembling-machine']) do
             end
         end
     end
+end
+
+if mods['angelssmelting'] then
+    log('angels smelting')
+    require('mods/angelssmelting')
 end
