@@ -15,6 +15,7 @@ for j_index, j in pairs(data.raw['assembling-machine']) do
             for pipe_index, pipe in ipairs(j.fluid_boxes) do -- ipairs because array with a boolean on the end
                 for connection_index, connection in ipairs(pipe.pipe_connections) do
                     data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].pipe_connections[connection_index].type = 'input-output'
+                    data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].base_level = 0
                     table.insert(
                         connections_to_add,
                         {
@@ -46,6 +47,7 @@ for j_index, j in pairs(data.raw['assembling-machine']) do
             for pipe_index, pipe in ipairs(j.fluid_boxes) do -- ipairs because array with a boolean on the end
                 for connection_index, connection in ipairs(pipe.pipe_connections) do
                     data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].pipe_connections[connection_index].type = 'input-output'
+                    data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].base_level = 0
                     table.insert(
                         connections_to_add,
                         {
