@@ -1,26 +1,25 @@
 ---------------------------------------------------------------------------------------------------
-Version 0.0.5
-Date 2019-07-19
-Changes:
+Version: 0.0.5
+Date: 2019-07-19
+  Changes:
     - Added the ability to blacklist an assembling machine from another mod. See FAQ for more details
 ---------------------------------------------------------------------------------------------------
-Version 0.0.4
-Date 2019-07-19
-Bugfixes:
+Version: 0.0.4
+Date: 2019-07-19
+  Bugfixes:
     - Corrected Assembler to Pipe connections (Thanks TheStaplerGun)
 ---------------------------------------------------------------------------------------------------
-Version 0.0.3
-Date 2019-07-02
-Bugfixes:
+Version: 0.0.3
+Date: 2019-07-02
+  Bugfixes:
     - Added Angels Smelting Support for multi-liquid recipes
 ---------------------------------------------------------------------------------------------------
-Version 0.0.2
-Date ?
-Changes:
+Version: 0.0.2
+Date: ?
+  Changes:
     - Added optional Py support
 ---------------------------------------------------------------------------------------------------
-Version 0.0.1
-Date 2019-04-11
-Changes:
+Version: 0.0.1
+Date: 2019-04-11
+  Changes:
     - Initial Release
----------------------------------------------------------------------------------------------------
