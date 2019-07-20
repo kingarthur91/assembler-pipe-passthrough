@@ -1,10 +1,6 @@
 --[[
     Do all the changes in data-final-fixes.lua, in case other mods have modified the technologies
 ]]
-local function starts_with(str, start)
-    return str:sub(1, #start) == start
-end
-
 local assembler_pipe_passthrough_defines = require('defines')
 
 for j_index, j in pairs(data.raw['assembling-machine']) do
