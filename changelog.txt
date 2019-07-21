@@ -1,6 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.8
+Date: 2019-07-21
+  Changes:
+    - Added Geothermal compatibility
+---------------------------------------------------------------------------------------------------
 Version: 0.0.7
-Date: 2019-07-20
+Date: 2019-07-21
   Changes:
     - Added Expanded Rocket Payloads compatibility
   Bugfixes:

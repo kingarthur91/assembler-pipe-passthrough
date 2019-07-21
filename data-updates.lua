@@ -8,3 +8,7 @@ if mods['angelssmelting'] then require('integrations/angelssmelting') end
 if mods['bobassembly'] then require('integrations/bobassembly') end
 
 if mods['expanded-rocket-payloads'] then require('integrations/expanded-rocket-payloads') end
+
+if mods['Geothermal'] then require('integrations/Geothermal') end
+
+--if mods['space-exploration'] then require('integrations/space-exploration') end
