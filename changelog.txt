@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.9
+Date: 2019-07-22
+  Changes:
+    - Added Angels Bio Processing compatibility
+    - Added Angels Petro Chemical compatibility
+    - Added Bob Plates compatibility
+---------------------------------------------------------------------------------------------------
 Version: 0.0.8
 Date: 2019-07-21
   Changes:
