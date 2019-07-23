@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.10
+Date: 2019-07-23
+  Changes:
+    - Added Bio Industries compatibility
+    - Added NPUtils compatibility
+    - Added minimum versions for base and mods
+  Bugfixes:
+    - Fixed Angels Smelting compatibility for Chemical Furnaces
+---------------------------------------------------------------------------------------------------
 Version: 0.0.9
 Date: 2019-07-22
   Changes:

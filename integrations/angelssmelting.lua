@@ -73,11 +73,11 @@ appmod.blacklist['blast-furnace'] = true
 appmod.blacklist['blast-furnace-2'] = true
 appmod.blacklist['blast-furnace-3'] = true
 appmod.blacklist['blast-furnace-4'] = true
+--]]
 appmod.blacklist['angels-chemical-furnace'] = true
 appmod.blacklist['angels-chemical-furnace-2'] = true
 appmod.blacklist['angels-chemical-furnace-3'] = true
 appmod.blacklist['angels-chemical-furnace-4'] = true
---]]
 appmod.blacklist['casting-machine'] = true
 appmod.blacklist['casting-machine-2'] = true
 appmod.blacklist['casting-machine-3'] = true
