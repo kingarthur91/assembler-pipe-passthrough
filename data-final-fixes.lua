@@ -49,6 +49,7 @@ for j_index, j in pairs(data.raw['assembling-machine']) do
                     data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].pipe_connections[connection_index].type = 'input-output'
                     data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].base_level = -1
                     data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].height = 2
+                    data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].base_area = 20
                     table.insert(
                         connections_to_add,
                         {
