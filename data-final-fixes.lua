@@ -47,9 +47,14 @@ for j_index, j in pairs(data.raw['assembling-machine']) do
             for pipe_index, pipe in ipairs(j.fluid_boxes) do -- ipairs because array with a boolean on the end
                 for connection_index, connection in ipairs(pipe.pipe_connections) do
                     data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].pipe_connections[connection_index].type = 'input-output'
-                    data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].base_level = -1
-                    data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].height = 2
-                    data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].base_area = 20
+                    if pipe.production_type == 'input' then
+                        -- input FLUIDBOX
+                        data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].base_level = -1
+                        data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].height = 2
+                        data.raw['assembling-machine'][j.name].fluid_boxes[pipe_index].base_area = 20
+                    else
+                        -- output FLUIDBOX
+                    end
                     table.insert(
                         connections_to_add,
                         {
