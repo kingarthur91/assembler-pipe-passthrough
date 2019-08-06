@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.0.15
+Date: 2019-08-06
+  Changes:
+    - Added Omnimatter, Omnimatter_Crystal compatibility
+    - Added Omnimatter_Fluid incompatibility
+---------------------------------------------------------------------------------------------------
 Version: 0.0.14
 Date: 2019-08-05
   Bugfixes:

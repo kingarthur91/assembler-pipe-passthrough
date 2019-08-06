@@ -22,6 +22,8 @@ if mods['Geothermal'] then require('integrations/Geothermal') end
 
 if mods['NPUtils'] then require('integrations/NPUtils') end
 
+if mods['omnimatter'] then require('integrations/omnimatter') end
+
 if mods['trainConstructionSite'] then require('integrations/trainConstructionSite') end
 
 --if mods['space-exploration'] then require('integrations/space-exploration') end
