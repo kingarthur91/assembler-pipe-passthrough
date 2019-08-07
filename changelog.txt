@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2019-08-07
+  Changes:
+    - Major overhaul of mod workings, because of issues arising from changes in base engine version 0.17.63
+---------------------------------------------------------------------------------------------------
 Version: 0.0.15
 Date: 2019-08-06
   Changes:
