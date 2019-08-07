@@ -7,7 +7,6 @@
 for j_index, j in pairs(data.raw['assembling-machine']) do
     if j.fluid_boxes and not appmod.blacklist[j.name] then
         log('Adding fluid boxes to ' .. j.name)
-
         --log(serpent.block(data.raw['assembling-machine'][j.name].fluid_boxes))
         for pipe_index, pipe in ipairs(j.fluid_boxes) do -- ipairs because array with a boolean on the end
             local connections_to_add = {}
@@ -49,7 +48,6 @@ for j_index, j in pairs(data.raw['assembling-machine']) do
                 -- input/output pipe
                 return
             end
-            log(serpent.block(connections_to_add))
         end
     end
 end
