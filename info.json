@@ -1,11 +1,11 @@
 {
     "name": "assembler-pipe-passthrough",
-    "version": "0.0.15",
+    "version": "0.1.0",
     "date": "2019-04-11",
     "title": "Assembler Pipe Passthrough",
     "author": "EnigmaticAussie",
     "dependencies": [
-        "base >= 0.17.58",
+        "base >= 0.17.63",
         "?angelsbioprocessing >= 0.6.2",
         "?angelspetrochem >= 0.8.6",
         "?angelssmelting >= 0.5.7",
