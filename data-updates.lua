@@ -1,5 +1,4 @@
 appmod.blacklist['escape-pod-assembler'] = true
-appmod.blacklist['centrifuge'] = true
 
 if mods['angelsbioprocessing'] then require('integrations/angelsbioprocessing') end
 if mods['angelssmelting'] then require('integrations/angelssmelting') end
