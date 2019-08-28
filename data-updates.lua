@@ -1,5 +1,12 @@
 appmod.blacklist['escape-pod-assembler'] = true
 
+appmod.blacklist['assembling-machine'] = not settings.startup['app_assembling_machines'].value
+appmod.blacklist['assembling-machine-2'] = not settings.startup['app_assembling_machines'].value
+appmod.blacklist['assembling-machine-3'] = not settings.startup['app_assembling_machines'].value
+
+appmod.blacklist['oil-refinery'] = not settings.startup['app_oil_refineries'].value
+appmod.blacklist['chemical-plant'] = not settings.startup['app_chemical_plants'].value
+
 if mods['angelsbioprocessing'] then require('integrations/angelsbioprocessing') end
 if mods['angelssmelting'] then require('integrations/angelssmelting') end
 

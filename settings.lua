@@ -1,16 +1,23 @@
 data:extend {
     {
         type = 'bool-setting',
-        name = 'chemical_plants',
+        name = 'app_assembling_machines',
         setting_type = 'startup',
         default_value = true,
-        order = 'aa'
+        order = 'aaa'
     },
     {
         type = 'bool-setting',
-        name = 'oil_refineries',
+        name = 'app_chemical_plants',
         setting_type = 'startup',
         default_value = true,
-        order = 'ab'
+        order = 'aab'
+    },
+    {
+        type = 'bool-setting',
+        name = 'app_oil_refineries',
+        setting_type = 'startup',
+        default_value = true,
+        order = 'aba'
     }
 }

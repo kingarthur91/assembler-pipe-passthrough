@@ -1,5 +1,10 @@
 
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 2019-08-28
+  Changes:
+    - Fixed options to turn off extra pipes for assembling machines, chemical plants and oil refineries
+---------------------------------------------------------------------------------------------------
 Version: 0.1.4
 Date: 2019-08-18
   Changes:
