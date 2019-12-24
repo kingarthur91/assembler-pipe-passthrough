@@ -25,6 +25,10 @@ if mods['NPUtils'] then require('integrations/NPUtils') end
 
 if mods['omnimatter'] then require('integrations/omnimatter') end
 
+if mods['Power_to_Fluid_updated'] then require('integrations/Power_to_Fluid_updated') end
+
+if mods['reverse-factory'] then require('integrations/reverse-factory') end
+
 if mods['space-exploration'] then require('integrations/space-exploration') end
 
 if mods['trainConstructionSite'] then require('integrations/trainConstructionSite') end
