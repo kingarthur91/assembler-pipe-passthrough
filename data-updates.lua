@@ -32,3 +32,5 @@ if mods['reverse-factory'] then require('integrations/reverse-factory') end
 if mods['space-exploration'] then require('integrations/space-exploration') end
 
 if mods['trainConstructionSite'] then require('integrations/trainConstructionSite') end
+
+if mods['pycoalprocessing'] then require('integrations/pymods') end
