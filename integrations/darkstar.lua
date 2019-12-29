@@ -5,7 +5,7 @@
 
 for a, ass in pairs(data.raw['assembling-machine']) do
 
-	if string.match(ass.icon, '__dark') ~= nil then
+	if string.match(ass.icon, '__Dark') ~= nil then
 	
 		appmod.blacklist[ass.name] = true
 		

@@ -34,3 +34,5 @@ if mods['space-exploration'] then require('integrations/space-exploration') end
 if mods['trainConstructionSite'] then require('integrations/trainConstructionSite') end
 
 if mods['pycoalprocessing'] then require('integrations/pymods') end
+
+if mods['Darkstar_utilities'] then require('integrations/darkstar') end
